@@ -83,7 +83,7 @@ plt.ylim(X2.min(), X2.max())
 for i,j in enumerate(np.unique(Y_set)):
     plt.scatter(X_set[Y_set==j, 0], X_set[Y_set==j, 1],
                 c = ListedColormap(('red', 'green', 'blue'))(i), label = j, edgecolors='black')
-plt.title('Logistic Regression (Training Set)')
+plt.title('Logistic Regression (Test Set)')
 plt.xlabel('PC1')
 plt.ylabel('PC2')
 plt.legend()
