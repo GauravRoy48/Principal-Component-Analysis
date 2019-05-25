@@ -30,7 +30,7 @@ from sklearn.decomposition import PCA
 
 #pca = PCA(n_components=None)
 #X_train = pca.fit_transform(X_train)
-#X_test = pca.fit_transform(X_test)
+#X_test = pca.transform(X_test)
 #explained_variance = pca.explained_variance_ratio_
 
 # The first 2 IVs have variance total of about 56% of total variance which is good enough
